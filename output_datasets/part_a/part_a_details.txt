@@ -1,0 +1,5 @@
+High-Level Explanation: The Nearest Neighbor Algorithm starts at a random city and repeatedly chooses the nearest unvisited city until all cities have been visited, forming a cycle. This algorithm tends to produce reasonably good solutions but doesn't guarantee the optimal solution.
+
+Time Complexity: The time complexity of the Nearest Neighbor Algorithm is O(n^2), where n is the number of cities. This is because for each of the n cities, the algorithm needs to find the nearest neighbor, which requires examining all remaining unvisited cities.
+
+Space Complexity: The space complexity is O(n), where n is the number of cities. This is due to the need to store information about visited and unvisited cities.
